@@ -1,0 +1,16 @@
+services:
+  asm-service:
+    # build:
+    #   context: ..
+    #   dockerfile: .devcontainer/Dockerfile
+    image: elainasuki/other:ASM
+    container_name: asm-container
+    environment:
+      - OMP_WAIT_POLICY=passive
+      - TERM=xterm-256color
+    volumes:
+      - ./..:/asm
+    entrypoint: [ "/bin/bash" ]
+    working_dir: "/asm" # 指定默认工作目录
+    tty: true
+    stdin_open: true

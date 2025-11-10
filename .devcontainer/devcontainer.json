@@ -1,0 +1,23 @@
+{
+    "name": "asm-container",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "asm-service",
+    "workspaceFolder": "/asm",
+    "shutdownAction": "stopCompose",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "maziac.asm-code-lens",
+                "xsro.vscode-dosbox",
+                "nottahaali.nasm-tools",
+                "donjayamanne.githistory",
+                "mhutchie.git-graph",
+                "KratosGado.nasm-compiler-linux",
+                "GateaDavid.asmollydbg"
+            ]
+        },
+        "jetbrains": {
+            "extensions": []
+        }
+    }
+}
