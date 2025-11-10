@@ -7,13 +7,9 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "maziac.asm-code-lens",
-                "xsro.vscode-dosbox",
-                "nottahaali.nasm-tools",
                 "donjayamanne.githistory",
                 "mhutchie.git-graph",
-                "KratosGado.nasm-compiler-linux",
-                "GateaDavid.asmollydbg"
+                "xsro.masm-tasm"
             ]
         },
         "jetbrains": {

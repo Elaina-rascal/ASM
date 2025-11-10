@@ -1,0 +1,5 @@
+{
+    "nasm-tools.nasmCommand": "nasm",
+    "nasm.nasmPath": "/usr/bin/nasm",
+    "masmtasm.ASM.emulator": "dosbox"
+}
