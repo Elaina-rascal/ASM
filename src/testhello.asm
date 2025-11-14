@@ -1,6 +1,10 @@
 DATA SEGMENT                          ;定义数据段，段名为DATA
            STRING DB'HELLO!','$'      ;定义字符串数据
 DATA ENDS
+STACK SEGMENT
+STA DB 20 DUP(?)
+TOP EQU $-STA
+STACK ENDS
 CODE SEGMENT                             ;定义代码段，改名为CODE
             ASSUME CS:CODE, DS:DATA
       START:MOV    AX, DATA              ;程序执行起始点

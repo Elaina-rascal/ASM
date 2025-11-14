@@ -9,7 +9,8 @@
             "extensions": [
                 "donjayamanne.githistory",
                 "mhutchie.git-graph",
-                "xsro.masm-tasm"
+                "xsro.masm-tasm",
+                "maziac.asm-code-lens"
             ]
         },
         "jetbrains": {
